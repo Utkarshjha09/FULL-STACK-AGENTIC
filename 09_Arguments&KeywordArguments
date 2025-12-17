@@ -1,0 +1,35 @@
+chai = [1, 2, 3]
+
+def edit_chai(cup):
+    cup[1] = 42
+
+edit_chai(chai)
+print(chai)
+
+
+Ticket_Price =[1,4,6,7,2,3,]
+def edit_Ticket_Price(price):
+    price[4] = 200
+    price[2] = 900
+    price[0:1] = 1000,1100  # we can't wrie like this as in python
+edit_Ticket_Price(Ticket_Price)
+print(Ticket_Price)
+
+########################################################################################################
+
+def make_chai(tea, milk, sugar):
+    print(tea, milk, sugar)
+
+make_chai("Darjeeling", "Yes", "Low") #positional ------ (Arguments)       here we define as per the position we defined in the function basically hm yaha per 
+# jo function mai define karte hai ussi oder  mai function call karte h 
+make_chai(tea="Green", sugar="Medium", milk="No") #keywords aguments
+# hum yaha per parameter ko call karte hue define karte hai 
+
+def special_chai(*ingredients, **extras): # here ingredients are positional---arguments() & extras are keywords-arguments 
+    print("Ingredients", ingredients)  #This will print ingredients whatever we call during the function
+    print("Extras", extras) #This will print extras whatever we call during the function
+
+special_chai("Cinnamon", "Cardmom", sweetener="Honey", foam="yes")
+# Here we call function special_chai as taking Cinnamon $ cardmon as positional arguments and Sweetner and foam as a keyword arguments
+#  we can also write this as but dont make changes with cinnamon and cardmom
+special_chai("Cinnamon", "Cardmom", foam="yes", sweetener="Honey")
