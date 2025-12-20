@@ -31,5 +31,5 @@ def special_chai(*ingredients, **extras): # here ingredients are positional---ar
 
 special_chai("Cinnamon", "Cardmom", sweetener="Honey", foam="yes")
 # Here we call function special_chai as taking Cinnamon $ cardmon as positional arguments and Sweetner and foam as a keyword arguments
-#  we can also write this as but dont make changes with cinnamon and cardmom
+#  we can also write this as but dont make changes with cinnamon and cardmom with there positions as there are fixed 
 special_chai("Cinnamon", "Cardmom", foam="yes", sweetener="Honey")

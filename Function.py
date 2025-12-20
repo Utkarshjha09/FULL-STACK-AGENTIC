@@ -1,10 +1,11 @@
 def calculate_bill(cups, PricePercup):
     tax_rate=0.18
-    discount= {"GET10":0.1 , "GET20":0.20 , "GET30":0.30}.get("GET10",0)
+    UserInput =input ("Enter Discount Code if any (GET10/GET20/GET30): ").upper()
+    discount= {"GET10":0.1 , "GET20":0.20 , "GET30":0.30}.get(UserInput,0)
     if (discount == 0):
         bill =cups*PricePercup + (cups*PricePercup*tax_rate)
     else:
-        print(f"Enter Your Discount Code Applied:"{UserInput})
+        print(f"Enter Your Discount Code Applied:{UserInput} ({discount*100}%) percent off")
         bill = (cups*PricePercup - discount) + ((cups*PricePercup - discount)*tax_rate)
 
     return bill
