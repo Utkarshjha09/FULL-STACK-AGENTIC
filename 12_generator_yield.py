@@ -13,7 +13,10 @@ def get_movie_list():
      return[ "Movie 1", "Movie 2" ,"Movie 3" , "Movie 4", "Movie 5"]
 
 MovieList= get_movie_list()
-print (MovieList)
+print (MovieList)  # here it will print whole at a time taking it as list , no loop is iterating 
+# nothing it will print directly taking as whole .
+
+
 ########  Generator Function ############
 def get_movie_gen():
     yield "Movie 1"
