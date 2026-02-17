@@ -1,4 +1,4 @@
-# yaha par basically hum rew mai diye huye item ko array mai change karke print ar rhe hai jiske 
+# yaha par basically hum rew mai diye huye item ko array mai change karke print kar rhe hai jiske 
 # liye humne ek funnction banya jisko static method ke andar jo ki array mai change karke print kar dega 
 # static method mai hum function banate hai 
 #   dusra tarika ye tha ki hum ek object banate 

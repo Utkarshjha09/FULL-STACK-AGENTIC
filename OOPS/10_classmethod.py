@@ -16,7 +16,7 @@ class Chaiorder: #creating base class
             order_data["sweetness"], #as per function above
             order_data["size"],      #as per function above
         )
-    @classmethod  # again , cls ka mtlb class hai aur yaha value lenge string mai as per defined in function of base class &  making the method as per class
+    @classmethod  # again , cls ka mtlb class hai aur yaha value lenge string mai as per defined in function of base class &  making the method as per base class
     def from_string(cls, order_string):
         tea_type, sweetness, size = order_string.split("-")
         return cls(tea_type, sweetness, size) #it will return the class 
