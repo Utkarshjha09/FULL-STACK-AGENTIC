@@ -9,4 +9,8 @@ def serve_chai(flavour):  # yaha humne ek function banaya jisko humne input mai 
         print(f"{flavour} chai is served") # agar flavour hai exist karega toh it will print this line 
     finally :
         print ("Next customer please") # at any how the statement inside this finally loop will definetely print 
-        # "Finally" always execute if there is error or not basically hum isko waha use kar sakte jaha humko kisi v kimaat pe koi cheez ko execute karna ho wha use karenge "Finally" ka
+       
+
+##    Shadow.point  ##
+# "Finally" always execute if there is error or not basically hum isko waha use kar sakte jaha humko kisi v kimaat pe koi cheez ko execute karna ho wha use karenge "Finally" ka
+
