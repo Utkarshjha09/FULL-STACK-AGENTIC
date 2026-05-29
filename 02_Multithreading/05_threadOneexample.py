@@ -10,8 +10,8 @@ def toast_bread():
     print(f" Bread is Toasted ")
 
 start = time.time()
-t1 = threading.Thread(target= boil_milk)
-t2 = threading.Thread(target= toast_bread)
+t1 = threading.Thread(target= boil_milk) # t1 name ka ek object or we say variable banaya jisme value store kiya humne 
+t2 = threading.Thread(target= toast_bread) # t2 name ka ek object banaya 
 
 t1.start()
 t2.start()

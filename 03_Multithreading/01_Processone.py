@@ -14,7 +14,7 @@ def cpu_heavy():
     print("DONE ✅") # after completion done Print ho jayega
 
 start = time.time()
-threads = [threading.Thread(target=cpu_heavy) for _ in range(2)] 
+threads = [threading.Thread(target=cpu_heavy) for _ in range(2)] # yaha ek "threads" name ka array liye hai and saari values ya phir bolo "thread" "array" mai store ho rhi hai 
 [t.start() for t in threads]
 [t.join() for t in threads]
 
