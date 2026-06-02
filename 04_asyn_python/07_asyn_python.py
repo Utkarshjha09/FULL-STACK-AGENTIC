@@ -31,5 +31,10 @@ Logging the system health 🕰️
 Logging the system health 🕰️
 🎁 order fetched
 '''
-# if we take first  function sleep time = 
-# and second function sleep time = 5 we get this output -:
+# if we take first  function sleep time = 1
+# and second function sleep time = 2 we get this output -: 
+'''
+Logging the system health 🕰️
+Logging the system health 🕰️
+🎁 order fetched
+'''
